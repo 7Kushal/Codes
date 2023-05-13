@@ -2,6 +2,34 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "functions",
+            "request": "launch",
+            "mainClass": "Basic.functions",
+            "projectName": "Codes_6b8ec544"
+        },
+        {
+            "type": "java",
+            "name": "Comparatorr",
+            "request": "launch",
+            "mainClass": "Basic.Collections.Comparatorr",
+            "projectName": "Codes_6b8ec544"
+        },
+        {
+            "type": "java",
+            "name": "Comparator",
+            "request": "launch",
+            "mainClass": "Basic.Collections.Comparator",
+            "projectName": "Codes_6b8ec544"
+        },
+        {
+            "type": "java",
+            "name": "Hashing",
+            "request": "launch",
+            "mainClass": "Basic.Hashing",
+            "projectName": "Codes_6b8ec544"
+        },
+        {
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",

@@ -1,5 +1,5 @@
 package Basic;
-import java.lang.*;
+// import java.lang.*;
 
 class functions{
     public static void main(String[] args) {
