@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Comparable_interface",
+            "request": "launch",
+            "mainClass": "Basic.Collections.Comparable_interface",
+            "projectName": "Codes_6b8ec544"
+        },
+        {
+            "type": "java",
             "name": "functions",
             "request": "launch",
             "mainClass": "Basic.functions",

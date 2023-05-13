@@ -3,6 +3,7 @@ import java.util.*;
 public class Comparatorr {
     // we will use comparator on collections class, it is an interface so we can override its
     // method to manupulate according to our use 
+    // comparable is an fuctional interface
     public static void main(String[] args) {
         ArrayList<Integer> a  = new ArrayList<>();
 
@@ -24,18 +25,30 @@ public class Comparatorr {
         for (Integer integer : a) {
             System.out.print(integer+" ");
         }
+        
         //we need to make comparator class object 
-        Comparator<Integer> comp = new Comparator<Integer>(){
-            public int compare(Integer a, Integer b){
+        // Comparator<Integer> comp = new Comparator<Integer>(){
+        //     public int compare(Integer a, Integer b){
 
-                if(a<b)   // this means if b is greater then a return 1 that means we want an 
-                return 1; // change here as we are returning 1 a positive, here a<b is itself
-                else if(a>b) // an indicator that we are sorting on basis of this logic 
-                return -1; // we dont want change 
-                return 0; // we do nothing if both are same 
+        //         if(a<b)   // this means if b is greater then a return 1 that means we want an 
+        //         return 1; // change here as we are returning 1 a positive, here a<b is itself
+        //         else if(a>b) // an indicator that we are sorting on basis of this logic 
+        //         return -1; // we dont want change 
+        //         return 0; // we do nothing if both are same 
 
-            }
+        //     }
+        // };
+
+        Comparator<Integer> comp = (Integer c, Integer b) -> {
+
+            if(c<b)   // this means if b is greater then a return 1 that means we want an 
+            return 1; // change here as we are returning 1 a positive, here a<b is itself
+            else if(c>b) // an indicator that we are sorting on basis of this logic 
+            return -1; // we dont want change 
+            return 0; // we do nothing if both are same 
+
         };
+
         Collections.sort(a, comp);
         System.out.println();
 
