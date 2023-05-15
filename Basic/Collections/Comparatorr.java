@@ -25,7 +25,7 @@ public class Comparatorr {
         for (Integer integer : a) {
             System.out.print(integer+" ");
         }
-        
+
         //we need to make comparator class object 
         // Comparator<Integer> comp = new Comparator<Integer>(){
         //     public int compare(Integer a, Integer b){
@@ -39,7 +39,7 @@ public class Comparatorr {
         //     }
         // };
 
-        Comparator<Integer> comp = (Integer c, Integer b) -> {
+        Comparator<Integer> comp = (c,b) -> {
 
             if(c<b)   // this means if b is greater then a return 1 that means we want an 
             return 1; // change here as we are returning 1 a positive, here a<b is itself
