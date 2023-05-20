@@ -16,7 +16,7 @@ public class mergesort {
         merge(arr,l,mid,h);
     }
 
-    public static void merge(int[] arr, int l, int m, int h){
+    public static void merge(int[] arr, int l, int mid, int h){
         int[] temp = new int[h-l-1];
         int i = l;
         int j = mid+1;
