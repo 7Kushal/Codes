@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "quicksort",
+            "request": "launch",
+            "mainClass": "quicksort",
+            "projectName": "Codes_6b8ec544"
+        },
+        {
+            "type": "java",
+            "name": "quickSort",
+            "request": "launch",
+            "mainClass": "quickSort",
+            "projectName": "Codes_6b8ec544"
+        },
+        {
+            "type": "java",
             "name": "Comparable_interface",
             "request": "launch",
             "mainClass": "Basic.Collections.Comparable_interface",
