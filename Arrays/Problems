@@ -5,7 +5,9 @@ Arrays ----
         1 - longestSubArrayWithGivenSum -  
                                             1. Hashsing 
                                             2. Sliding Window
-                                            3.
 
-    4 -  
+    4. maximum sum in a array - Kadane algorithem
+    5. DutchNationalFlagAlgo - 0,1,2 in order 3 pointer solution
+    6. Buy and Sell stocks - keep track of min and sub from maximum in the array 
+    7. 
                                         
